@@ -1,0 +1,15 @@
+Commands used in CMD for pip
+
+1)pip install Django==1.11.9 --> this command is used to install software packages written in Python
+2)pip list --> Shows a list of installed packages. Can also list outdated packages by adding --outdated at the end of command.
+3)pip install Django==1.11.9(again) --> This returned a message stating that the package has
+already been installed. It also states that there is a newer version of the particular package.
+4)pip freeze --> This command returns python packages currently installed. It can also output 
+this information to a text file to create a source to be used with the install command.
+5)When running the command pip freeze > requirements.txt, it creates that file in the desktop. Once
+opeing the file, it shows the packages that are currently installed in python.
+6)pip uninstall Django --> this prompts the system to uninstall the package Django. It asks
+the user to confirm procedure. Once confirming, it successfully uninstalls the package.
+7)pip show Django --> after uninstalling this package, this command does not show Django anymore.
+8)pip search flask --> The command searches through the database of packages containing 'flask'
+and lists them, along with each description.
